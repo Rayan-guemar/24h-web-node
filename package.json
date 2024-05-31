@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "test": "node ./tests/server-certify-tests.mjs --team-login=team35  --team-pass=vUTsDTT9N --stop-after=test_get_update_1 http://localhost:3000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
   }
 }
