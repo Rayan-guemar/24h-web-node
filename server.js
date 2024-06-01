@@ -51,8 +51,8 @@ app.get('/get-update', (req, res) => {
 		team: null,
 		player: null,
 		players: null,
-		layers: [map[0]],
-		test_get_update_0: true,
+		layers: map,
+		test_get_update_1: true,
 		test: [map.length]
 	});
 });
